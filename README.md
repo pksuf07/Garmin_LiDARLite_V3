@@ -1,7 +1,7 @@
 # Garmin_LiDARLite_V3
 Garmin LiDARLite V3 on Arduino
 
-I made  little addtions to https://github.com/garmin/LIDARLite_Arduino_Library
+NOTE: This minor code is completely based on https://github.com/garmin/LIDARLite_Arduino_Library I would say there is no major changes or additions to the original library but simple functionalities to collect measurement results and some statistics.
 
 I added following methods to the LIDARLite class:
 
