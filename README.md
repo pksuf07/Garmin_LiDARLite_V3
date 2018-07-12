@@ -14,7 +14,7 @@ I added following methods to the LIDARLite class:
         void getconfigvalues(char = LIDARLITE_ADDR_DEFAULT);
         //-- end of addition -----------------------------------------------
 
-mygetDistanceI2C.ino is also based on the example in Garmin library. I added several different version of loop for different purpose.
+"mygetDistanceI2C.ino" is also based on the example code "getDistanceI2C.ino" in Garmin library. I added several different version of loop functions for different purpose.
 
 One can choose a different loop() function by uncomment one of followig definision. The source code itself is simple and self exaplanatory. 
 
