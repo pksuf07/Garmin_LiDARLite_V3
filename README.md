@@ -20,7 +20,7 @@ One can choose a different loop() function by uncomment one of followig definisi
 
         //-- application types --------------------------------------------------------
         #define GET_DISTANCE    1           //-- basic proof of function, distance only
-        // #define GET_VELOCITY    2           //-- basic proof of function, distance and velocity
+        // #define GET_VELOCITY    2           //-- basic proof of function, distance, signal strength, and velocity
         // #define GET_BENCHMARK   3        //-- get statistics
         // #define GET_CORRELATION 4        //-- get correclation record
 
