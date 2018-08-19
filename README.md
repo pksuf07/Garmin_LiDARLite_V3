@@ -1,9 +1,10 @@
 # Garmin_LiDARLite_V3
+
 Garmin LiDARLite V3 on Arduino
 
 NOTE: This minor code is completely based on https://github.com/garmin/LIDARLite_Arduino_Library I would say there is no major changes or additions to the original library but simple functionalities to collect measurement results and some statistics.
 
-I added following methods to the LIDARLite class:
+I added the following methods to the LIDARLite class:
 
         //-- new addition by Kyu -------------------------------------------
         int  getvelocity(char = LIDARLITE_ADDR_DEFAULT);        
@@ -14,9 +15,9 @@ I added following methods to the LIDARLite class:
         void getconfigvalues(char = LIDARLITE_ADDR_DEFAULT);
         //-- end of addition -----------------------------------------------
 
-"mygetDistanceI2C.ino" is also based on the example code "getDistanceI2C.ino" in Garmin library. I added several different version of loop functions for different purpose.
+"mygetDistanceI2C.ino" is also based on the example code "getDistanceI2C.ino" in the Garmin library. I added several different versions of loop functions for different purpose.
 
-One can choose a different loop() function by uncomment one of followig definision. The source code itself is simple and self exaplanatory. 
+One can choose a different loop() function by uncommenting one of the followingg definisions. The source code itself is very simple and self-expplanatory. 
 
         //-- application types --------------------------------------------------------
         #define GET_DISTANCE    1           //-- basic proof of function, distance only
